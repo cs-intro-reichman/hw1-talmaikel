@@ -10,7 +10,7 @@ public class Bill3 {
 		double pricePerPerson =  (double) dinnerPrice/3;
 
 
-		System.out.println("hello "+name1+" "+name2+" "+name3+" each one of you need to pay: "+Math.ceil(pricePerPerson));
+		System.out.println("Dear "+name1+", "+name2+", and "+name3+": pay: "+Math.ceil(pricePerPerson) + " Shekels each");
 
 	
 	}
