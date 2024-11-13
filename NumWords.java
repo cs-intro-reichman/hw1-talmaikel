@@ -8,7 +8,7 @@ public class NumWords {
 		fullnum = fullnum/10;
 		double hundreds = (double)fullnum % 10;
 
-		System.out.println((int)hundreds +" hundreds "+(int) tens+ " tens "+ (int) ones+ " ones ");
+		System.out.println((int)hundreds +" hundreds, "+(int) tens+ " tens, "+ (int) ones+ " ones.");
 
 	}
 }
