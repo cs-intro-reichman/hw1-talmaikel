@@ -8,15 +8,19 @@ public class TimeFormat {
 		{
 		 if (hours < 12){
 				System.out.println(hours+":"+ minutes+ " AM");
-			} else {
+			} else if (hours == 12){
+				System.out.println("12:"+ minutes+ " PM");
+			}	else {
 				System.out.println((hours-12)+":"+ minutes+ " PM");
 			}
-		} else {
+		} else{
 			if (hours < 12) {
 				System.out.println(hours+":0"+ minutes+ " AM");
-			} else {
+			} else if (hours == 12){
+				System.out.println("12:0"+ minutes+ " PM");
+			} 	else {
 					System.out.println((hours-12)+":0"+ minutes+ " PM");
 			}
-		}
+		} 
 	}
 }
